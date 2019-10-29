@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <h1>Contact me</h1>
+    <p>
+      Christoph Hahn<br>
+      Simmelbergstr. 31<br>
+      66839 Schmelz<br>
+      <br>
+      0151 701 74 620 <br>
+      christoph.kj.hahn@gmail.com
+    </p>
+
+    <hr />
+
+    <!-- Set the encoding to plain text to suppress UTF-8 escape signs in the email -->
+    <form class="" action="mailto:christoph.kj.hahn@gmail.com" method="post" enctype="text/plain">
+      <label>Email:</label>
+
+      <!-- email has some kind of auto-validation in the browsers -->
+      <input type="email" name="YourEmail" /><br />
+
+      <label>Message:</label><br />
+      <textarea name="YourMessage"></textarea><br />
+
+      <input type="submit" name="btn_sendmail" value="Send mail" />
+    </form>
+  </body>
+</html>
